@@ -51,7 +51,7 @@ public class CustomArrayServiceImpl implements CustomArrayService {
         int[] current = array.getArray();
         int sum = 0;
         for (int num : current) {
-            sum = sum + num;
+            sum+ =  num;
         }
         return sum;
     }
